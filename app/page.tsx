@@ -70,7 +70,7 @@ const Page: React.FC = () => {
 
    return (
       <div>
-         <NavBar logo="/images/logo.jpg" links={navLinks} />
+         <NavBar logo="/images/logo.png" links={navLinks} />
          <HeroSection />
          <PopularDestination destinations={popularDestinations} />
          <HotelList hotels={hotels} />
