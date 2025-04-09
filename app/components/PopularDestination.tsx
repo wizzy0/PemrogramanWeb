@@ -28,7 +28,7 @@ const PopularDestination: React.FC<PopularDestinationProps> = ({
                   <img
                      src={item.image}
                      alt={item.title}
-                     className="w-full h-28 object-cover rounded-xl"
+                     className="w-full h-35 object-cover rounded-xl"
                   />
                   <h4 className="font-semibold text-md text-gray-900">
                      {item.title}

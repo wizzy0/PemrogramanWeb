@@ -21,15 +21,15 @@ const TravelTips: React.FC<TravelTipsProps> = ({ tips }) => {
       <section className="bg-white py-12">
          <div className="container mx-auto px-4 md:px-8">
             <div className="flex justify-between items-center mb-8">
-               <h2 className="text-xl font-semibold text-black">
+               <h2 className="text-xl font-semibold text-black px-8">
                   Travel Tips and Advice
                </h2>
-               <button className="text-sm text-purple-600 hover:underline">
+               <button className="text-sm text-purple-600 hover:underline px-8">
                   View all →
                </button>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-8">
                {tips.map((tip, index) => (
                   <div
                      key={index}
